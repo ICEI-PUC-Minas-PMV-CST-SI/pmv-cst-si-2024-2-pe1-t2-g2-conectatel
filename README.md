@@ -18,7 +18,7 @@ O projeto Fundamentos de Sistemas buscará articular os conhecimentos discutidos
 * Breno Augusto Carvalho Cordeiro 872937
 * Lívius de Araújo Penha
 * Giovana da Silva Nascimento 
-* Nome completo do aluno 4
+* Pedro Silva
 * Nome completo do aluno 5
 
 ## Orientador
