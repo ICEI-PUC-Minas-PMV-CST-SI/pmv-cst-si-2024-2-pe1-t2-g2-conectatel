@@ -19,7 +19,7 @@ O projeto Fundamentos de Sistemas buscará articular os conhecimentos discutidos
 * Lívius de Araújo Penha
 * Giovana da Silva Nascimento 
 * Pedro Silva
-* Nome completo do aluno 5
+* João Vitor Kuhn Kampff
 
 ## Orientador
 
