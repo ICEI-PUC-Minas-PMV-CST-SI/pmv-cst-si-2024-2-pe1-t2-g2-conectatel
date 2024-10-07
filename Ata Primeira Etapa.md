@@ -1,3 +1,9 @@
+`CURSO: Segurança da Informação`
+
+`DISCIPLINA: Projeto - Fundamentos de Sistemas - Turma 02 - 2024/2`
+
+`Eixo: 1`
+
 ## **Ata do Projeto [ConectaTel] - Etapa 1**
 
 ## Relatos Individuais
