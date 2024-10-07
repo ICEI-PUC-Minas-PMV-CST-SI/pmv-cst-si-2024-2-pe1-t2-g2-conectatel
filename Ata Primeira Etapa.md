@@ -1,4 +1,4 @@
-## Projeto [ConectaTel] - Etapa 1
+## Ata do Projeto [ConectaTel] - Etapa 1
 
 ### Apresentações Individuais
 
