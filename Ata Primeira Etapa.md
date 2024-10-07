@@ -1,6 +1,6 @@
-## Ata do Projeto [ConectaTel] - Etapa 1
+## **Ata do Projeto [ConectaTel] - Etapa 1**
 
-### Relatos Individuais
+## Relatos Individuais
 
 
 > #### Breno Augusto C. Cordeiro
