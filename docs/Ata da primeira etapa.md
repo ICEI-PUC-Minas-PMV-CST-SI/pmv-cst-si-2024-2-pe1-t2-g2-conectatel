@@ -1,5 +1,7 @@
 Integrante: Breno Augusto C. Cordeiro
+
 Seguem as atividades que realizei na 1º etapa do projeto:
+
 Nessa etapa eu fiquei responsável por levantar quais são as leis que regulamentam as atividades que envolvem 
 a Tecnologia da informação e o fluxo informacional dentro das empresas. 
 Levantei informação sobre como as atividades nos setores da empresa devem ser conduzidas na observância das leis.
