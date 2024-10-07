@@ -14,19 +14,39 @@ a Tecnologia da informação e o fluxo informacional dentro das empresas.
 * Realizei um estudo geral sobre a ISO 27000 que padroniza os diferentes processos da gestão sobre Segurança das Informação, em específico a ISO 27005, que trata da gestão de riscos dentro da gestão de S.I..
 
 _______________________________________________________________________________________
-Integrante: João Vitor Kuhn Kampff
+> #### João Vitor Kuhn Kampff
 
-Dentro do projeto, realizei as seções 2 e 2.1, juntamente com parte da seção 3 da primeira etapa. Além disso, tive parte na revisão final do projeto.
+**Atividades Realizadas:**
+
+* Dentro do projeto, realizei as seções 2 e 2.1, juntamente com parte da seção 3 da primeira etapa. Além disso, tive parte na revisão final do projeto.
 _______________________________________________________________________________________
-Integrante: Lívius de A.P.
+> #### Lívius de A.P.
 
-Fui responsável pela matriz relacional entre as leis que envolvem TI e os provavéis impactos na organização.
+**Atividades Realizadas:**
+
+* Fui responsável pela matriz relacional entre as leis que envolvem TI e os provavéis impactos na organização.
 (início da parte 4)
 _______________________________________________________________________________________
-Integrante: Giovana
+> #### Giovana
 
-Dentro do projeto, fiquei responsavél por relacionar os impactos do MCI na área de marketing da empresa
+**Atividades Realizadas:**
+
+* Dentro do projeto, fiquei responsavél por relacionar os impactos do MCI na área de marketing da empresa
 _______________________________________________________________________________________
-Integrante: Pedro Silva
+> #### Pedro Silva
 
-levantamento de leis que impactam na manufatura.
+**Atividades Realizadas:**
+
+* levantamento de leis que impactam na manufatura.
+_______________________________________________________________________________________
+> #### Sarah
+
+**Atividades Realizadas:**
+
+*
+_______________________________________________________________________________________
+> #### Rayssa
+
+**Atividades Realizadas:**
+
+*
