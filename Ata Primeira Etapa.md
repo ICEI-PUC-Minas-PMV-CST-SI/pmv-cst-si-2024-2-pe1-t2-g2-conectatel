@@ -1,6 +1,6 @@
 `CURSO: Segurança da Informação`
 
-`DISCIPLINA: Projeto - Fundamentos de Sistemas - Turma 02 - 2024/2`
+`DISCIPLINA: Projeto - Fundamentos de Sistemas - Turma 02 - Grupo 02 - 2024/2`
 
 `Eixo: 1`
 
