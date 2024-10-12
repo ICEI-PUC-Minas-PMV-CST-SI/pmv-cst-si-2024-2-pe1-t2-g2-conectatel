@@ -23,7 +23,7 @@ ________________________________________________________________________________
 
 **Atividades Realizadas:**
 
-* Dentro do projeto, realizei as seções 2 e 2.1, juntamente com parte da seção 3 da primeira etapa. Além disso, tive parte na revisão final do projeto.
+* Dentro do projeto, realizei as seções 2 e 2.1, juntamente com parte da seção 3 da primeira etapa. Além disso, fui responsável pela elaboração do objetivo e escopo da PSI e fiz parte da revisão final do projeto.
 _______________________________________________________________________________________
 > #### Lívius de A.P.
 
