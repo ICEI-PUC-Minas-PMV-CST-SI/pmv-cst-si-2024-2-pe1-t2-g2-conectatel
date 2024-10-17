@@ -27,4 +27,6 @@ O projeto Fundamentos de Sistemas buscará articular os conhecimentos discutidos
 
 * Fabio Leandro Rodrigues Cordeiro
 
+* [Vídeo da apresentação da primeira etapa](https://drive.google.com/file/d/1FGMQ4YdxD6i42BFHLDcj20fOgglwwIz4/view?usp=drive_link)
+
 
