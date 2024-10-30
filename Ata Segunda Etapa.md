@@ -1,10 +1,12 @@
-*CURSO: Segurança da Informação
+`CURSO: Segurança da Informação`
 
-**DISCIPLINA: Projeto - Fundamentos de Sistemas - Turma 02 - Grupo 02 - 2024/2
+`DISCIPLINA: Projeto - Fundamentos de Sistemas - Turma 02 - Grupo 02 - 2024/2`
 
-***Eixo: 1
+`Eixo: 1`
 
-Ata do Projeto [ConectaTel] - Etapa 1
+## **Ata do Projeto [ConectaTel] - Etapa 2**
+
+Ata do Projeto [ConectaTel] - Etapa 2
 Relatos Individuais
 
 João Vitor Kuhn Kampff: Fui responsável pela elaboração e descrição do objetivo e escopo da Política de Segurança da Informação (PSI) nessa etapa.
