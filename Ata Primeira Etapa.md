@@ -54,4 +54,4 @@ ________________________________________________________________________________
 
 **Atividades Realizadas:**
 
-*
+* Fiquei responsável pelos principais processos do negócio (parte 3).
