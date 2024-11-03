@@ -16,11 +16,9 @@ O projeto Fundamentos de Sistemas buscará articular os conhecimentos discutidos
 ## Integrantes
 
 * Breno Augusto Carvalho Cordeiro 872937
-* Lívius de Araújo Penha
 * Giovana da Silva Nascimento 
 * Pedro Silva
 * João Vitor Kuhn Kampff
-* Sarah
 * Rayssa
 
 ## Orientador
