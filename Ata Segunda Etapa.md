@@ -19,3 +19,4 @@ Fiquei responsável por:
 ⦁	Identificar dispositivos pessoais utilizados na organização.
 ⦁	Identificar riscos de segurança física e lógica discutidos no MF de Fundamentos de Segurança da Informação e encontrados no contexto organizacional estudado.
 
+Rayssa Santos Silva: Fiquei responsável pela classificação dos riscos.
