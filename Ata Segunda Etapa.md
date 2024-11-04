@@ -20,3 +20,6 @@ Fiquei responsável por:
 ⦁	Identificar riscos de segurança física e lógica discutidos no MF de Fundamentos de Segurança da Informação e encontrados no contexto organizacional estudado.
 
 Rayssa Santos Silva: Fiquei responsável pela classificação dos riscos.
+
+Pedro Augusto Goncalves da Silva 
+Fiquei responsavel pelo principios de seguranca da PSI.    
