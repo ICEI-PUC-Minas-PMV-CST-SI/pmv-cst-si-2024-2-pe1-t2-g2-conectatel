@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Tickets - ConectaTel</title>
+    <link rel="stylesheet" href="painel.css">
+</head>
+<body>
+    <header class="header">
+        <h1>ConectaTel Service Desk</h1>
+        <p id="saudacao"></p>
+    <script src="saudacao.js"></script>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Filtros</h2>
+            <form id="filterForm">
+                <div class="filter-group">
+                    <label for="filterDate">Data</label>
+                    <input type="date" id="filterDate" name="filterDate">
+                </div>
+                <div class="filter-group">
+                    <label for="filterUser">Usuário</label>
+                    <input type="text" id="filterUser" name="filterUser" placeholder="Digite o usuário">
+                </div>
+                <div class="filter-group">
+                    <label for="filterTicketNumber">Número do Ticket</label>
+                    <input type="number" id="filterTicketNumber" name="filterTicketNumber" placeholder="Digite o número">
+                </div>
+                <button type="submit" class="filter-button">Aplicar Filtros</button>
+            </form>
+        </aside>
+        <main class="content">
+            <div class="tickets-controls">
+                <label for="ticketsPerPage">Tickets por página:</label>
+                <select id="ticketsPerPage">
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+            </div>
+            <table class="tickets-table">
+                <thead>
+                    <tr>
+                        <th>Número do Ticket</th>
+                        <th>Usuário</th>
+                        <th>Descrição</th>
+                        <th>Responsável</th>
+                        <th>Criador</th>
+                    </tr>
+                </thead>
+                <tbody id="ticketsBody">
+                    <!-- Tickets gerados dinamicamente -->
+                </tbody>
+            </table>
+            <div class="pagination">
+                <button id="prevPage" class="pagination-button">Anterior</button>
+                <button id="nextPage" class="pagination-button">Próximo</button>
+            </div>
+        </main>
+    </div>
+    <script src="painel.js"></script>
+</body>
+</html>

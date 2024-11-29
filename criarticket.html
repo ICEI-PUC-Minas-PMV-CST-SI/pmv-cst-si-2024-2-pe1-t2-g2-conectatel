@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Ticket - ConectaTel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .perfil {
+            display: flex;
+            align-items: center;
+        }
+
+        header .perfil img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        header .perfil .nome {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        header .menu {
+            display: flex;
+            align-items: center;
+        }
+
+        header .menu a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 16px;
+        }
+
+        .conteudo {
+            margin: 20px;
+        }
+
+        .formulario {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .formulario h2 {
+            text-align: center;
+            color: #003366;
+        }
+
+        .campo {
+            margin-bottom: 20px;
+        }
+
+        .campo label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .campo input, .campo textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .campo textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        .campo select {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .campo button {
+            width: 100%;
+            padding: 15px;
+            font-size: 18px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .campo button:hover {
+            background-color: #00509e;
+        }
+
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="perfil">
+            <img src="https://via.placeholder.com/40" alt="Foto do atendente">
+            <span class="nome">Atendente: João Silva</span>
+        </div>
+        <div class="menu">
+            <a href="painel.html">Home</a>
+            <a href="#">Tickets</a>
+        </div>
+    </header>
+
+    <div class="conteudo">
+        <div class="formulario">
+            <h2>Criar Novo Ticket</h2>
+
+            <div class="campo">
+                <label for="descricao">Descrição do Problema</label>
+                <textarea id="descricao" placeholder="Descreva detalhadamente o problema..." required></textarea>
+            </div>
+
+            <div class="campo">
+                <label for="pessoas">Pessoas Relacionadas ao Incidente</label>
+                <input type="text" id="pessoas" placeholder="Insira os nomes das pessoas envolvidas" required>
+            </div>
+
+            <div class="campo">
+                <label for="dispositivos">Dispositivos Relacionados ao Incidente</label>
+                <input type="text" id="dispositivos" placeholder="Insira os dispositivos relacionados (se houver)" required>
+            </div>
+
+            <div class="campo">
+                <label for="urgencia">Urgência do Ticket</label>
+                <select id="urgencia" required>
+                    <option value="">Selecione a urgência</option>
+                    <option value="Baixa">Baixa</option>
+                    <option value="Média">Média</option>
+                    <option value="Alta">Alta</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <button onclick="criarTicket()">Criar Ticket</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 ConectaTel | Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        // Função para criar um ticket (apenas exemplo, pode ser ajustada conforme necessário)
+        function criarTicket() {
+            // Obter os dados do formulário
+            var descricao = document.getElementById('descricao').value;
+            var pessoas = document.getElementById('pessoas').value;
+            var dispositivos = document.getElementById('dispositivos').value;
+            var urgencia = document.getElementById('urgencia').value;
+
+            // Verificar se todos os campos foram preenchidos
+            if (descricao && pessoas && dispositivos && urgencia) {
+                alert('Ticket criado com sucesso!\n\nDescrição: ' + descricao + '\nPessoas: ' + pessoas + '\nDispositivos: ' + dispositivos + '\nUrgência: ' + urgencia);
+                // Aqui você pode adicionar a lógica para salvar o ticket no servidor (por exemplo, via API)
+            } else {
+                alert('Por favor, preencha todos os campos.');
+            }
+        }
+    </script>
+
+</body>
+</html>

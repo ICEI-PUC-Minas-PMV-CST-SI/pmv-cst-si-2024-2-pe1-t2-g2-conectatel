@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle - ConectaTel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .perfil {
+            display: flex;
+            align-items: center;
+        }
+
+        header .perfil img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        header .perfil .nome {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        header .menu {
+            display: flex;
+            align-items: center;
+        }
+
+        header .menu a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 16px;
+        }
+
+        .relatorio {
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            width: 220px;
+            margin-bottom: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        .menu .icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+
+        /* Relógio */
+        .relogio {
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle - ConectaTel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .perfil {
+            display: flex;
+            align-items: center;
+        }
+
+        header .perfil img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        header .perfil .nome {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        header .menu {
+            display: flex;
+            align-items: center;
+        }
+
+        header .menu a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 16px;
+        }
+
+        .relatorio {
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            width: 220px;
+            margin-bottom: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        .menu .icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+
+        /* Relógio */
+        .relogio {
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        /* Estilo do campo de consulta de ticket */
+        .campo-consulta {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .campo-consulta input {
+            padding: 10px;
+            font-size: 16px;
+            width: 180px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            margin-right: 10px;
+        }
+
+        .campo-consulta button {
+            padding: 10px 15px;
+            font-size: 16px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .campo-consulta button:hover {
+            background-color: #00509e;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="perfil">
+            <img src="https://via.placeholder.com/40" alt="Foto do atendente">
+            <span class="nome">Atendente: João Silva</span>
+        </div>
+        <div class="menu">
+            <a href="#"><img src="https://via.placeholder.com/20" class="icon" alt="Ícone de mensagem"> Mensagens</a>
+            <span class="relatorio" id="relogio"></span>
+        </div>
+    </header>
+
+    <div class="conteudo">
+        <div class="card">
+            <h3>Consultar Ticket</h3>
+            <p>Pesquise e consulte detalhes de um ticket existente.</p>
+            <!-- Campo de consulta de ticket -->
+            <div class="campo-consulta">
+                <input type="text" id="numeroTicket" placeholder="Insira o número do ticket" />
+                <button onclick="consultarTicket()">Consultar</button>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Meus Tickets</h3>
+            <p>Veja todos os tickets atribuidos à você.</p>
+            <a href="tickets.html">Ver Tickets</a>
+        </div>
+        <div class="card">
+            <h3>Abrir Novo Ticket</h3>
+            <p>Crie um novo ticket.</p>
+		<div class="campo-consulta">
+                <input type="text" id="numeroTicket" placeholder="Insira o codigo do usuário" />
+                <button onclick="window.location.href='criarticket.html'">Gerar</button>
+            </div>
+            <a href="#">Abrir Ticket</a>
+        </div>
+        <div class="card">
+            <h3>Tickets em Urgência</h3>
+            <p>Visualize tickets com alta prioridade.</p>
+            <a href="#">Ver Urgente</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 ConectaTel | Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        // Função para mostrar data e hora no cabeçalho
+        function atualizarRelogio() {
+            var data = new Date();
+            var hora = data.getHours();
+            var minutos = data.getMinutes();
+            var segundos = data.getSeconds();
+            var dia = data.getDate();
+            var mes = data.getMonth() + 1; // Janeiro é 0!
+            var ano = data.getFullYear();
+
+            // Formatação de hora e data
+            hora = hora < 10 ? "0" + hora : hora;
+            minutos = minutos < 10 ? "0" + minutos : minutos;
+            segundos = segundos < 10 ? "0" + segundos : segundos;
+            mes = mes < 10 ? "0" + mes : mes;
+            dia = dia < 10 ? "0" + dia : dia;
+
+            var horaFormatada = `${hora}:${minutos}:${segundos}`;
+            var dataFormatada = `${dia}/${mes}/${ano}`;
+
+            document.getElementById('relogio').innerHTML = `Data: ${dataFormatada} | Hora: ${horaFormatada}`;
+        }
+
+        setInterval(atualizarRelogio, 1000); // Atualiza o relógio a cada segundo
+
+        // Função de consulta de ticket (apenas exemplo, pode ser ajustada conforme necessário)
+        function consultarTicket() {
+            var numeroTicket = document.getElementById('numeroTicket').value;
+            if (numeroTicket) {
+                alert(`Consultando informações do ticket número: ${numeroTicket}`);
+                // Aqui você pode adicionar lógica para consultar um ticket no backend, por exemplo
+            } else {
+                alert('Por favor, insira um número de ticket válido.');
+            }
+        }
+    </script>
+
+</body>
+</html>

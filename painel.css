@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    background-color: #0059b3;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.filter-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.filter-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0059b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-button:hover {
+    background-color: #004080;
+}
+
+.content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.tickets-controls {
+    margin-bottom: 15px;
+}
+
+.tickets-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.tickets-table th,
+.tickets-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination-button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #0059b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination-button:hover {
+    background-color: #004080;
+}
