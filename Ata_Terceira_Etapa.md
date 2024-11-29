@@ -9,7 +9,7 @@
 Ata do Projeto [ConectaTel] - Etapa 3
 Relatos Individuais
 
-João Vitor Kuhn Kampff: 
+João Vitor Kuhn Kampff: Fui responsável pela elaboração e escrita da política de segurança da informação, tal como as normas e procedimentos de segurança.
 
 Breno Augusto Carvalho Cordeiro:
 Fiquei responsável por: 
