@@ -17,7 +17,7 @@ Fiquei responsável por:
 *Criar o código para o inventário da proposta
 *Estudar os pontos de vulnerabilidade no fluxo principal e propor um fluxo alternativo para o caminho informacional.
 
-Rayssa Santos Silva: Responsavel por desenvolver o script baseado no fluxograma do prcesso da atepa 2
+Rayssa Santos Silva: 
 
-Pedro Augusto Goncalves da Silva 
+Pedro Augusto Goncalves da Silva : Responsavel por desenvolver o script baseado no fluxograma do prcesso da atepa 2
  
