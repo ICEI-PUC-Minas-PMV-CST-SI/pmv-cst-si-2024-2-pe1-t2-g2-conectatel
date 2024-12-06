@@ -20,4 +20,6 @@ Fiquei responsável por:
 Rayssa Santos Silva: 
 
 Pedro Augusto Goncalves da Silva : Responsavel por desenvolver o script baseado no fluxograma do prcesso da atepa 2
- 
+
+Giovana da Silva Nascimento: 
+Fui responsavel pela análise de riscos/continuidade/contingência baseada nos dados fornacidos no item 5 da etapa anterior.
